@@ -1,0 +1,6 @@
+{
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "watch": ["server/*"],
+  "ext": "*",
+  "exec": "ts-node --project tsconfig.json -r tsconfig-paths/register -r  server/index.ts"
+}
